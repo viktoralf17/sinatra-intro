@@ -1,8 +1,0 @@
-<h1>Editando a <%= @dog.name %> </h1>
-
-<form class="" action="/dogs/<%= @dog.id %>" method="post">
-  <input type="hidden" name="_method" value="PATCH">
-  <input type="text" name="name" value="<%= @dog.name %>">
-  <input type="text" name="age" value="<%= @dog.age %>">
-  <input type="submit" value="Editar perrito">
-</form>
